@@ -3,7 +3,7 @@
 ================================ */
 :root {
   --bg: #fbfbfd;
-  --card: #ffffff;
+  --card: #27b491;
   --text: #0f172a;
   --muted: #6b7280;
   --accent: #0b5cff;
@@ -42,7 +42,7 @@ img {
    CONTENEDORES
 ================================ */
 .container {
-  width: 90%;
+  width: 80%;
   max-width: var(--maxw);
   margin: auto;
   padding: 60px 0;
@@ -80,9 +80,9 @@ img {
 }
 
 .logo {
-  width: 54px;
-  height: 54px;
-  border-radius: 12px;
+  width: 60px;
+  height: 60px;
+  border-radius: 20px;
   box-shadow: var(--shadow);
 }
 
@@ -258,7 +258,7 @@ img {
   height: 48px;
   border-radius: 50%;
   background: var(--accent);
-  color: white;
+  color: rgb(45, 61, 207);
   border: none;
   display: none;
   cursor: pointer;
@@ -300,4 +300,36 @@ body.dark .card {
 
 body.dark .nav a {
   color: #e6eef8;
+}
+.school-key{
+  font-size:12px;
+  color:var(--muted);
+}
+body{
+  background: linear-gradient(180deg,#f8fafc,#eef2ff);
+}
+.btn.inscripcion{
+  background:#16a34a;
+  color:white;
+}
+
+.btn.inscripcion:hover{
+  background:#15803d;
+}
+.hero-img{
+  border-radius:20px;
+}
+.hero-img{
+  box-shadow:0 12px 24px rgba(20, 159, 71, 0.3);
+}
+.section-img{
+  center;
+  display:block;
+  margin: 0 auto;
+  border: #15803d solid 4px;
+  padding: 5px;
+  margin-top:20px;
+  border-radius:20px;
+  box-shadow:0 12px 24px rgba(30, 122, 7, 0.2);
+  background-color: #16a34a;
 }
